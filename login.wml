@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN" 
+     "http://www.wapforum.org/DTD/wml13.dtd"> 
+<wml> 
+    
+  <card id="card1" title="LOGIN"> 
+<onevent type="onenterbackward">
+<refresh>
+	<setvar name="T1" value=""/>
+	<setvar name="T2" value=""/>
+	
+</refresh>
+</onevent>	
+
+<onevent type="onenterforward">
+<refresh>
+	<setvar name="T1" value=""/>
+	<setvar name="T2" value=""/>
+	
+
+</refresh>
+</onevent> 
+      
+    <do type="unknown" label="Login">
+      <go href="http://localhost:8080/examples/jsp/forms/login.jsp">
+	  <postfield name="T1" value="$T1" />
+	  <postfield name="T2" value="$T2" />
+      </go>
+    </do> 
+    <p align="center"> 
+	   User Id <input type="text" name="T1" size="20" /><br/>
+       Password<input type="password" name="T2" size="20"/>
+       
+    </p> 
+  </card> 
+ 
+</wml> 

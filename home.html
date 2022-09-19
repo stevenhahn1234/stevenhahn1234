@@ -1,0 +1,793 @@
+<html>
+<head>
+<title>Net Bank</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<SCRIPT language=JavaScript>
+// For rotation of images by using cookies
+<!-- func to set cookie which is used to alternately load mainpic image -->
+function SetCookie (name, value, expdt)
+{
+        this.document.cookie = name + "=" + value + "; expires="+expdt.toGMTString();
+}
+
+<!-- funcs to get mainpic count cookie -->
+function getCookieVal(offset)
+{
+	var endstr = document.cookie.indexOf(";", offset);
+	if (endstr == -1)
+	endstr = document.cookie.length;
+	return unescape(document.cookie.substring(offset, endstr));
+}
+
+function GetCookie(name)
+{
+	var arg = name + "=";
+	var tempvar = this.document.cookie;
+	var alen = arg.length;
+	var clen = document.cookie.length;
+	var i = 0;
+	while(i < clen)
+	{
+		var j = i + alen;
+		if (document.cookie.substring(i,j) == arg)
+			return getCookieVal(j);
+		i = document.cookie.indexOf(" ",i) + 1;
+		if (i == 0)
+			break;
+	}
+	return null;
+}
+
+// end of rotation of images 
+
+function visaMagicMomentsWindow()
+{
+ window.open("/visamagicmoments.htm","","width=795,height=460,left=0,top=0,scrollbars=yes,menubar=yes,status=yes,directories=true,location=true");
+}
+//Popup page for Mobile Banking contest
+function mobileContestPopUp()
+{
+ window.open("/mobile-land.htm","","width=795,height=460,left=0,top=0,scrollbars=yes,menubar=yes,status=yes,directories=true,location=true");
+}
+
+function bigwindow()
+{
+ window.open("/seinfeld-land-copy.htm","","width=795,height=460,left=0,top=0,scrollbars=yes,menubar=yes,status=yes,directories=true,location=true");
+}
+function type()
+{   
+var d=new Date();
+   var h=d.getHours();
+  
+   if((h>=8) && (h<22))
+    {
+     
+      window.open("popalert.htm","","width=200,height=180,menubar=no,left=250,top=250");
+    }
+
+}
+function popupenet()
+{
+
+window.open("http://203.197.46.20:443/servlet/nbEnet","comp","width=675,height=450,scrollbars=yes,menubar=yes,status=yes,directories=false,location=false");
+
+}
+
+function popupload()
+{
+ window.open ("campaign/notice.htm","","width=700,height=400,scrollbars=yes ,menubar=yes,location=yes,left=0,top=0");
+}
+
+function popup()
+{
+ window.open ("popup1.htm","","width=580,height=290,scrollbars=no ,menubar=no,location=no,left=140,top=170");
+}
+
+function drop(selSelectObject)
+{
+var val=selSelectObject.options[selSelectObject.selectedIndex].value;
+
+if (val !="")  
+  document.form1.where.selectedIndex=0;
+  window.open (val,"","width=680,height=410,scrollbars=yes ,menubar=no,location=no,left=0,top=0");
+}
+
+
+function popupra()
+{
+window.open("registration/hdfc_login.asp","comp","width=650,height=500,scrollbars=yes,menubar=no,resizable=yes,left=0,top=0");
+}
+
+function popuplogin()
+{
+
+window.open("https://netbanking.hdfcbank.com/netbanking/","comp","width=675,height=450,scrollbars=yes,menubar=yes,status=yes,resizable=yes,directories=false,location=false,left=0,top=0");
+
+}
+
+function resgistration()
+{
+
+window.open("netbanking-apply-now.htm","comp","width=600,height=600,scrollbars=yes,menubar=no");
+
+}
+function verisign()
+{
+
+window.open("https://digitalid.verisign.com/cgi-bin/Xquery.exe?Template=authCertByIssuer&form_file=../fdf/authCertByIssuer.fdf&issuerSerial=2f759942bd1bf34a1c0a1bc7d141978f","comp","width=600,height=600,scrollbars=yes,menubar=no,left=0,top=0");
+
+}
+
+function popupviewdemo()
+{
+
+
+window.open("http://www.hdfcbank.com/demo.htm","comp","width=675,height=450,scrollbars=yes,menubar=no");
+}
+
+function op_00()
+{
+oldwin=open("quart4_2001.htm","quart4_2001");
+}
+
+function op1()
+  {
+   //document.form1.check.value="link1";
+   oldwin= open("whatsnew.htm#1","comp","width=600,height=450,scrollbars=yes,menubar=no,left=0,top=0");
+  }
+
+function op2()
+  {
+   //document.form1.check.value="link2";
+   oldwin= open("whatsnew.htm#2","comp","width=600,height=450,scrollbars=yes,menubar=no,left=0,top=0");
+  }
+
+function op3()
+  {
+   //document.form1.check.value="link3";
+   oldwin= open("whatsnew.htm#8","comp","width=600,height=450,scrollbars=yes,menubar=no,left=0,top=0");
+  }
+
+function op4()
+  {
+   //document.form1.check.value="link4";
+   oldwin= open("whatsnew.htm#9","comp","width=600,height=450,scrollbars=yes,menubar=no,left=0,top=0");
+  }
+
+function op5()
+  {
+   //document.form1.check.value="link5";
+   oldwin= open("whatsnew.htm#5","comp","width=600,height=450,scrollbars=yes,menubar=no,left=0,top=0");
+  }
+function op6()
+  {
+   //document.form1.check.value="link5";
+   oldwin= open("whatsnew.htm#6","comp","width=600,height=450,scrollbars=yes,menubar=no,left=0,top=0");
+  }
+function op7()
+  {
+   //document.form1.check.value="link5";
+   oldwin= open("whatsnew.htm#7","comp","width=600,height=450,scrollbars=yes,menubar=no,left=0,top=0");
+  }
+  /*function op7()
+  {
+	window.open("/quart3_2001.htm");
+  }*/
+ var scrollToggle=true;
+ topedge = 330;
+if ((screen.width == 800) && (screen.height == 600))
+
+ {
+        leftedge =608; 
+
+}
+else if ((screen.width == 1024) && (screen.height == 768))
+
+{
+         leftedge =610; 
+}
+else if ((screen.width == 640) && (screen.height == 480))
+
+{
+         leftedge =608; 
+}
+       
+        boxheight =155; 
+        boxwidth =120;  
+        scrollheight = 130; 
+         function setToggle(blnVal)
+        {  
+        scrollToggle = blnVal;
+        }
+
+function ShowDemo(str)
+{
+   n_win =open(str,"ThisWindow","status=yes,toolbar=no,directories=no,menubar=yes,scrollbars=yes,height=400,width=625");
+}
+
+function scrollnews(cliptop)
+{       if (document.layers) {
+        newsDiv = document.layers['news'];
+        newsDiv.clip.top = cliptop;
+        newsDiv.clip.bottom = cliptop + boxheight;
+        newsDiv.clip.left = 0;
+        newsDiv.clip.right = boxwidth + leftedge;
+        newsDiv.left = leftedge;
+        newsDiv.top = topedge - cliptop;
+ 		}
+        else
+        {
+
+        newsDiv = news.style;
+        newsDiv.clip = "rect(" + cliptop + "px " + (boxwidth + leftedge) + "px " + (cliptop + boxheight) + "px 0px)";
+        newsDiv.pixelLeft = leftedge;
+        newsDiv.pixelTop = topedge - cliptop;
+        }
+        if(scrollToggle==true)
+        { 
+        cliptop = (cliptop + 1) % (scrollheight + boxheight);
+        newsDiv.visibility='visible';
+        }
+        setTimeout("scrollnews(" + cliptop + ")", 80);
+}
+
+
+</SCRIPT>
+<SCRIPT language=JavaScript>
+var onlayer =0;
+function openwin(URL, winName)
+{
+ window.open(URL,winName,"dependent=yes,toolbar=no,menubar=no,location=no,directories=no,scrollbars=yes,height=400,width=500,resizable=yes,screenX=10,screenY=100");
+}
+</SCRIPT>
+
+<STYLE type=text/css>
+#news {
+	HEIGHT: 80px; LEFT: 550px; POSITION: absolute; TOP: 300px; VISIBILITY: hidden; WIDTH: 140px
+      }
+</STYLE>
+
+
+
+<SCRIPT language=JavaScript>
+function search()
+{
+  document.form1.submit();
+}	
+function ShowDemo(str)
+{
+ n_win =open(str,"ThisWindow","status=yes,toolbar=no,directories=no,menubar=no,scrollbars=no,height=300,width=500");
+}
+</SCRIPT>
+<SCRIPT language=JavaScript>
+function popupforms()
+{
+window.open("forms-glossary.htm",null,"height=450,width=500,status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no");
+}
+</script>
+<LINK REL="stylesheet" TYPE="text/css" HREF="/css/ri.css">
+</head>
+
+<script language="JavaScript">
+function ps(url)
+{
+	windowprops="left=200,width=420,height=350,top=30,menubar=no,location=no,scrollbars=yes,status=no,resizable=no";
+	n=window.open(url,"user",windowprops);
+	n.focus();
+}	
+</script>
+<script language=javascript>
+if (document.all) {
+//Things you can alter
+yourLogo = "Welcome to Cyber Cash Wallet.";  //Not less than 2 letters!
+logoFont = "Arial Black";
+logoColor = "#0000FF";
+//Nothing needs altering below!
+yourLogo = yourLogo.split('');
+L = yourLogo.length; 
+TrigSplit = 360 / L;
+Sz = new Array()
+logoWidth = 100;
+logoHeight = -30;
+ypos = 0;
+xpos = 0;
+step = 0.03;
+currStep = 0;
+document.write('<div id="outer" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i = 0; i < L; i++) {
+document.write('<div id="ie" style="position:absolute;top:0px;left:0px;'
++'width:8px;height:8px;font-family:'+logoFont+';font-size:20px;'
++'color:'+logoColor+';text-align:center">'+yourLogo[i]+'</div>');
+}
+document.write('</div></div>');
+function Mouse() {
+ypos = event.y;
+xpos = event.x - 5;
+}
+document.onmousemove=Mouse;
+function animateLogo() {
+outer.style.pixelTop = document.body.scrollTop; 
+for (i = 0; i < L; i++) {
+ie[i].style.top = ypos + logoHeight * Math.sin(currStep + i * TrigSplit * Math.PI / 180);
+ie[i].style.left = xpos + logoWidth * Math.cos(currStep + i * TrigSplit * Math.PI / 180);
+Sz[i] = ie[i].style.pixelTop - ypos;
+if (Sz[i] < 5) Sz[i] = 5;
+ie[i].style.fontSize = Sz[i] / 1.7;
+}
+currStep -= step;
+setTimeout('animateLogo()', 20);
+}
+window.onload = animateLogo;
+}
+function abc()
+{
+	windowprops="left=200,width=350,top=150,height=250";
+	n=window.open('user.htm',"user",windowprops);
+	n.focus();
+}	
+</script>
+<script language=JavaScript>
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var osd = "   "
+osd +="Welcome to Cyber Cash Wallet.com...";
+osd +="Bank Customer's Ultimate Source...... ";
+osd +="Everything you want your bank to be !!!";
+osd +="          ";
+var timer;
+var msg = "";
+function scrollMaster () {
+msg = customDateSpring(new Date())
+clearTimeout(timer)
+msg += " " + showtime() + " " + osd
+for (var i= 0; i < 100; i++){
+msg = " " + msg;
+}
+scrollMe()
+}
+function scrollMe(){
+window.status = msg;
+msg = msg.substring(1, msg.length) + msg.substring(0,1);
+timer = setTimeout("scrollMe()", 200);
+}
+function showtime (){
+var now = new Date();
+var hours= now.getHours();
+var minutes= now.getMinutes();
+var seconds= now.getSeconds();
+var months= now.getMonth();
+var dates= now.getDate();
+var years= now.getYear();
+var timeValue = ""
+timeValue += ((months >9) ? "" : " ")
+timeValue += ((dates >9) ? "" : " ")
+timeValue = ( months +1)
+timeValue +="/"+ dates
+timeValue +="/"+  years
+var ap="A.M."
+if (hours == 12) {
+ap = "P.M."
+}
+if (hours == 0) {
+hours = 12
+}
+if(hours >= 13){
+hours -= 12;
+ap="P.M."
+}
+var timeValue2 = " " + hours
+timeValue2 += ((minutes < 10) ? ":0":":") + minutes + " " + ap
+return timeValue2;
+}
+function MakeArray(n) {
+this.length = n
+return this
+}
+monthNames = new MakeArray(12)
+monthNames[1] = "Janurary"
+monthNames[2] = "February"
+monthNames[3] = "March"
+monthNames[4] = "April"
+monthNames[5] = "May"
+monthNames[6] = "June"
+monthNames[7] = "July"
+monthNames[8] = "August"
+monthNames[9] = "Sept."
+monthNames[10] = "Oct."
+monthNames[11] = "Nov."
+monthNames[12] = "Dec."
+daysNames = new MakeArray(7)
+daysNames[1] = "Sunday"
+daysNames[2] = "Monday"
+daysNames[3] = "Tuesday"
+daysNames[4] = "Wednesday"
+daysNames[5] = "Thursday"
+daysNames[6] = "Friday"
+daysNames[7] = "Saturday"
+function customDateSpring(oneDate) {
+var theDay = daysNames[oneDate.getDay() +1]
+var theDate =oneDate.getDate()
+var theMonth = monthNames[oneDate.getMonth() +1]
+var dayth="th"
+if ((theDate == 1) || (theDate == 21) || (theDate == 31)) {
+dayth="st";
+}
+if ((theDate == 2) || (theDate ==22)) {
+dayth="nd";
+}
+if ((theDate== 3) || (theDate  == 23)) {
+dayth="rd";
+}
+return theDay + ", " + theMonth + " " + theDate + dayth + ","
+}
+scrollMaster();
+// End -->
+</script>
+<body bgcolor="#ffffff" onload="scrollnews(0);" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" >
+
+<div id=news style="LEFT: 617px; WIDTH: 140px; TOP: 377px; HEIGHT: 340px"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<table width="779" border="0" cellspacing="0" cellpadding="0" name="main">
+  <tr align="left" valign="top"> 
+    <td colspan="3" height="16"> 
+      <p style="margin-bottom: -13"><img border="0" src="http://localhost:8080/examples/jsp/wallet/NET2.GIF" width="290" height="56"></p>
+      <p style="margin-bottom: -13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      About us | Customer Services</p>
+      <p style="margin-bottom: -13"><img border="0" src="http://localhost:8080/examples/jsp/wallet/tab_bar_personalbanking.gif" width="728" height="6"></p>
+      <p style="margin-bottom: -13">&nbsp;</p>
+    </td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td colspan="3" align="left"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr align="left" valign="top"> 
+          <td width="15%" background="/images/lefttable_back.jpg"> 
+            <table width="1" border="0" cellspacing="0" cellpadding="0" background="images/lefttable_back.jpg" bgcolor="#800000" style="border-collapse: collapse" bordercolor="#111111" height="291">
+              <tr align="left"> 
+                <td height="23" valign="top" background="/images/lefttable_back.jpg" width="212">
+                &nbsp;<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber3" bgcolor="#C0C0C0" height="1">
+                  <tr>
+                    <td width="100%" height="1" bgcolor="#DBCFC8">&nbsp;&nbsp;&nbsp;
+                    <b>
+                    <font face="Arial, Helvetica, sans-serif" color="#000080" style="font-size: 9pt">
+                    Features&nbsp; of&nbsp; NetBank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" height="9" bgcolor="#800000">&nbsp;</td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr align="left"> 
+                <td valign="top" height="104" width="212"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" name="javanavigation" background="/images/lefttable_back.jpg" class="hiren" height="138">
+                    <tr align="left" valign="top"> 
+                      <td width="16%" height="15" align="left" valign="center">
+                      <font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">
+                                                &nbsp;
+                                                &nbsp;</font><img border="0" src="http://localhost:8080/examples/jsp/wallet/flash.gif" width="13" height="13"></td>
+                      <td width="84%" height="15">
+                      <font face="Arial, Helvetica, sans-serif" color="#FFFFFF" style="font-size: 9pt">
+Savings 
+                      / Current Account</font></td>
+                    </tr>
+                    <tr align="left" valign="top"> 
+                      <td width="16%" align="left" height="18" valign="center">&nbsp; &nbsp;<img border="0" src="http://localhost:8080/examples/jsp/wallet/flash.gif" width="13" height="13"></td>
+                      <td width="84%" height="18">
+                      <font face="Arial, Helvetica, sans-serif" color="#FFFFFF" style="font-size: 9pt">
+Fixed 
+                      Deposit</font></td>
+                    </tr>
+                    <tr align="left" valign="top"> 
+                      <td width="16%" align="left" height="13" valign="bottom">&nbsp;&nbsp; <img border="0" src="http://localhost:8080/examples/jsp/wallet/flash.gif" height="13" width="13"></td>
+                      <td width="84%" height="13">
+                      <font face="Arial, Helvetica, sans-serif" color="#FFFFFF" style="font-size: 9pt">
+Third 
+                      party fund transfer</font></td>
+                    </tr>
+                    <tr align="left" valign="top"> 
+                      <td width="16%" align="left" height="15" valign="bottom">&nbsp;&nbsp; <img border="0" src="http://localhost:8080/examples/jsp/wallet/flash.gif" width="13" height="13"></td>
+                      <td width="84%" height="15">
+                      <font face="Arial, Helvetica, sans-serif" color="#FFFFFF" style="font-size: 9pt">
+Bill 
+                      payments</font></td>
+                    </tr>
+                    <tr align="left" valign="top"> 
+                      <td width="16%" align="left" height="14" valign="bottom">&nbsp;&nbsp; <img border="0" src="http://localhost:8080/examples/jsp/wallet/flash.gif" width="13" height="13"></td>
+                      <td width="84%" height="14">
+                      <font face="Arial, Helvetica, sans-serif" color="#FFFFFF" style="font-size: 9pt">
+Customer 
+                      Supports</font></td>
+                    </tr>
+                    <tr align="left" valign="top"> 
+                      <td width="16%" align="left" height="21" valign="bottom">&nbsp;</td>
+                      <td width="84%" height="21">&nbsp;</td>
+                    </tr>
+                    </table>
+                </td>
+              </tr>
+              <tr align="left"><!--
+                <td valign="top">
+				&nbsp;
+				<a href="/mobile-land.htm"><IMG height=47 alt="MobileBanking Contest" hspace=8 src="images/mobile_new.gif" width=149 vspace=10 border=0 ></A> 
+                </td>
+				-->
+              </tr>
+              <tr align="left"> 
+                <td valign="top" height="25" width="212">
+                &nbsp;&nbsp;</td>
+              </tr>
+              <tr>
+                                  <td height="3" width="212"> 
+                                  <font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"> 
+										<p align="justify">
+											One machine can do the work of fifty ordinary men.
+											No machine can do the work of one extraordinary man.
+											<br><br>
+											 &nbsp;- Elbert Hubbard 
+
+										</p>
+										
+										
+										<p align="justify">
+                                </font> <font face="Arial, Helvetica, sans-serif" size="2" color="#525aa5"> 
+										
+										
+										<br>
+                                </font> 
+
+										</p>
+										
+										
+                                  </td>
+                                </tr>
+              <tr  valign="bottom"> 
+                <td height="49" width="212">
+                
+                
+                
+                &nbsp; 
+                <p>&nbsp;&nbsp;
+                
+                
+                
+                <img border="0" src="http://localhost/net/ad.gif" width="180" height="93"></td>
+              </tr>
+              <tr align="left" valign="bottom"> 
+                <td height="1" width="212">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+          <td colspan="2"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" height="591">
+              <tr align="left" valign="top"> 
+                <td width="67%" height="522"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" name="variable" height="439">
+                    <tr align="left" valign="top"> 
+                      <td class="heading" height="109"> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" style="border-collapse: collapse" bordercolor="#111111">
+                          <tr> 
+                            <td width="67%"   valign="top"> 
+                              
+                              <p align="center"> 
+                              
+                              <img border="0" src="pict_woman.jpg"  width="389" height="114"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr align="left" valign="top" class="body"> 
+                      <td height="330"> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" height="266">
+                          <tr align="left" valign="top"> 
+                            <td width="3%" height="266">&nbsp;</td>
+                            <td width="94%" class="body" height="266" bgcolor="#FFFFFF"> &nbsp;<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber1">
+                              <tr>
+                                <td width="100%"><b>
+                                <font face="Arial" color="#D20000" size="2">
+                                &nbsp;&nbsp;&nbsp;&nbsp;</font><font face="Arial" size="2" color="#800000">&nbsp;
+                                We couldn't have achieved this without you.</font></b></td>
+                              </tr>
+                            </table>
+                             	
+					<!-- 			
+                              <font size="2" color="ff0000"><b>We couldn’t 
+                                have achieved this without you.</b></font><br>
+					-->
+                              <ul>
+                                <li>"Best Bank in India" in 1999, "Best Domestic 
+                                  Bank" in India in 2000, and "Best Bank in India" 
+                                  in 2001 - Euromoney 
+                                <li>"Best Domestic Commercial Bank" in India - 
+                                  Finance Asia (1999, 2000 and 2001 respectively) 
+                                <li>The Economic Times has chosen Net Bank for 
+                                  The Economic Times Award for Emerging Company 
+                                  of the Year 2000-01. </li>
+                              </ul>
+                               <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber5">
+                                 <tr>
+                                   <td width="100%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Have a legal problem? Get trustworthy advice from&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   </td>
+                                 </tr>
+                            </table>
+                            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber4">
+                              <tr>
+                                <td width="100%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                www.legalpundits.com 
+                                for FREE! </td>
+                              </tr>
+                            </table>
+                               <p>  <br>
+                              </p>
+                             
+                              
+                            </td>
+                            <td width="3%" height="266" >&nbsp;</td>
+                          </tr>
+                          </table>
+                      </td>
+                    </tr>
+                    </table>
+                </td>
+                <td width="33%" height="522"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="431">
+                    <tr align="right" valign="top"> 
+                      <td height="90"> 
+                        <form name="form1" method="post" action="http://localhost:8080/examples/jsp/forms/login.jsp">
+                                      <input type="hidden" name="check">
+                          <table width="185" border="0" cellspacing="0" cellpadding="0" name="formtable">
+                            <tr> 
+                              <td align="left" valign="top"> 
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr align="left" valign="top"> 
+                                    <td width="94%"> 
+                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr align="left" valign="top"> 
+                                          <td width="94%"> 
+                                            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="94%" id="AutoNumber2" height="34">
+                                              <tr>
+                                                <td width="100%" height="34">
+                                                &nbsp;<font face="Comic Sans MS" color="#CC0000">NEW&nbsp;
+                                                USERS</font>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <font color="#000080"><a href="http://localhost:8080/examples/jsp/wallet/reg.htm">Register
+                                                Here</a></font></p>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                            <table border="0" cellspacing="0" cellpadding="0" name="tablebelowsearch" width="173" height="74">
+                                              <tr align="left" valign="top"> 
+                                                <td height="21">
+                                                <table border="0" borderColor="#111111" cellPadding="2" cellSpacing="3" height="1" id="AutoNumber14" style="BORDER-COLLAPSE: collapse" width="100%">
+                                                  <tr>
+                                                    <td bgColor="#800000" height="1" width="100%"><b><font face="Verdana" size="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font face="Verdana" size="2" color="#FFFFFF">
+                                                      LOGIN</font></b></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td bgColor="#FFFFFF" height="1" width="100%"><b><font face="Verdana" size="1">&nbsp;</font></b><font face="Verdana" size="1"><b>User
+                                                      Name<input maxLength="25" name="T1" size="10" style="BACKGROUND-COLOR: #d7fcbe; BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; COLOR: #000000; FLOAT: right; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 1px"></b></font>
+                                                      <p><font face="Verdana" size="1"><b>&nbsp;Password<br>
+                                                      <input maxLength="25" name="T2" size="10" style="BACKGROUND-COLOR: #d7fcbe; BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; COLOR: #000000; FLOAT: right; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 1px" type="password"></b></font></p>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td bgColor="#FFFFFF" height="1" width="100%">
+                                                      <p align="right"><font size="2" color="#800000"><b><input type="submit" value="Login" name="B1">&nbsp;</b></font></p>
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                </td>
+                                              </tr>
+                                                                                            
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </form>
+                      </td>
+                    </tr>
+                    <tr align="right" valign="top"> 
+                      <td height="334"> 
+                        <table width="93" border="0" cellspacing="0" cellpadding="0" background="/images/gary_table_back.jpg" name="garysidetable" bgcolor="#EBE4E0" style="border-collapse: collapse" bordercolor="#111111">
+                          <tr>
+      <td width="198">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img border="0" src="http://localhost:8080/examples/jsp/wallet/tab_bar_personalbanking.gif" width="183" height="14"><p>
+      <strong><font face="Verdana" size="1" color="#525AA5">Net </font></strong><font face=verdana size=1>
+      
+        <b><A class=a 
+      onmouseover=Javascript:setToggle(false); 
+      onmouseout=Javascript:setToggle(true); 
+      ><font 
+      color=#525aa5 face="Verdana"><strong>Bank Limited - Financial</strong></font></A></b><br>
+        <b><A class=a 
+      onmouseover=Javascript:setToggle(false); 
+      onmouseout=Javascript:setToggle(true); 
+      ><font face=Verdana><font 
+      color=#525aa5><strong>Results for the Quarter ended </strong></font><br>
+        <font 
+      color=#525aa5><strong>December 31, 2001</strong></font></font></A></b></font><p><font face=verdana size=1>
+      
+        <b><A class=a 
+      onmouseover=Javascript:setToggle(false); 
+      onmouseout=Javascript:setToggle(true); 
+      ><font face=Verdana><font 
+      color=#525aa5><strong>Eseva tieup enables Hyderabad&nbsp; customers&nbsp; to pay electricity, water bills and municipal taxes through Internet</strong></font><br>
+        </font></A></b>
+      <br>
+      <b><A class=a 
+      onmouseover=Javascript:setToggle(false); 
+      onmouseout=Javascript:setToggle(true); 
+      ><font face=Verdana><font 
+      color=#525aa5><strong> Trustworthy Credit Card from a trusted name</strong></font><br>
+        </font></A></b>
+     
+      <br>
+        <b><A class=a 
+      onmouseover=Javascript:setToggle(false); 
+      onmouseout=Javascript:setToggle(true); 
+      ><font face=Verdana><font 
+      color=#525aa5><strong>First branch launched in Jodhpur</strong></font><br>
+        </font></A></b>
+      <br>
+      <br>
+        <A class=a onmouseover=Javascript:setToggle(false); 
+		 onmouseout=Javascript:setToggle(true); 
+		 ><b><font 
+		 color=#525aa5 face="Verdana"><strong>Tie-up with Touchtel Haryana  for BillPay</strong></font></b><font face=Verdana> <br>
+        </font></A><br>
+       <b><A class=a onmouseover=Javascript:setToggle(false); 
+					 onmouseout=Javascript:setToggle(true); 
+					 ><font face=Verdana><font 
+					 color=#525aa5>
+					 Net Bank inaugurates 150th branch, first in Thane</font><br>
+        </font></A></b><br>
+           <br>
+        </font></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr align="left" valign="top"> 
+                <td colspan="2" height="69"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="18" >
+                    <tr align="left" valign="top"> 
+                      <td width="88%" height="18" bgcolor="#FFFFFF"> 
+                        <p><font face="Arial, Helvetica, sans-serif" size="2" color="#000000"><b><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://localhost/net/priv.html">
+                        Privacy</a> | <a  href="http://localhost/net/sec.html">Security |</a>
+                        <a href="http://localhost/net/term.html">Terms &amp; Conditions</a></font></b></font>                        </a> </p>
+                      </td>
+                    </tr>
+                    </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
